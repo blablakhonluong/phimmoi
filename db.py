@@ -9,4 +9,4 @@ cur = db.cursor()
 
 cur.execute("Create Database if not exists phimmoi")
 
-print(db)
+# print(db)
