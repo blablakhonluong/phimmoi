@@ -5,8 +5,8 @@ db = mysql.connector.connect(
     username='root', 
     password=''
 )
-# cur = db.cursor()
+cur = db.cursor()
 
-# cur.execute("Create Database if not exists phimmoi")
+cur.execute("Create Database if not exists phimmoi")
 
 print(db)
